@@ -30,6 +30,6 @@ st.text_input(label='Input text here:', placeholder = 'Add a new todo',
               on_change=add_todo, key='new_todo') # key for text input in session_state
 
 print('Hello')
-st.session_state
+#st.session_state
 
 print(st.session_state)
