@@ -15,7 +15,7 @@ match len(todos):
         text="WELL DONE ITS EMPTY!"
     case _:
         text =f'hihi - {len(todos)} more to go!'
-st.write(text)
+st.write(f"<b>{text}</b>", unsafe_allow_html=True)
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
